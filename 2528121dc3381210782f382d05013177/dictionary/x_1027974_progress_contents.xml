@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f109d6d1c3781210782f382d05013183" label="Contents" max_length="40" name="x_1027974_progress_contents" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Modules" max_length="40" name="modules" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Domain" max_length="40" name="domain" type="string"/>
+    </element>
+</database>

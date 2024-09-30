@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db6ad255c3781210782f382d0501318e" label="Tracker" max_length="40" name="x_1027974_progress_tracker" type="collection">
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Progress" max_length="40" name="progress" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Domain" max_length="40" name="domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Content" max_length="40" name="content" reference="x_1027974_progress_contents" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="400" name="notes" type="string"/>
+    </element>
+</database>
